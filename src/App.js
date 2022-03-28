@@ -11,7 +11,7 @@ function App() {
           This is my first React Js.
         </p>
       </header>
-      <SocialFollow />
+      <footer><SocialFollow /></footer>
     </div>
   );
 }

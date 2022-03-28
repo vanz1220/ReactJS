@@ -11,11 +11,11 @@ export default function SocialFollow() {
   return (
     <div class="social-container">
     <h3>Social Follow</h3>
-    <a href="https://www.youtube.com/channel/UCM2rmii7AgLLn0e6LUpDhlQ"
+    <a href="https://www.youtube.com/"
         className="youtube social">
         <FontAwesomeIcon icon={faYoutube} size="2x" />
       </a>
-      <a href="https://www.facebook.com/ivan.malong.17/"
+      <a href="https://www.facebook.com/"
         className="facebook social">
         <FontAwesomeIcon icon={faFacebook} size="2x" />
       </a>
