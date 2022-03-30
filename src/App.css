@@ -50,6 +50,13 @@ a.instagram {
     animation: App-logo-spin infinite 5s linear;
   }
 }
+
+@media (max-width: 414px) {
+  .About-Height{
+    min-height: 50vmin;
+  }
+}
+
 h3 {
   color: #ffffff;
 }
