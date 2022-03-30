@@ -23,7 +23,7 @@ export default function About() {
         threshold={0.1}
         rootMargin="20%"
       >
-        I LOVE REACT JS
+        I ❣ REACT JS 🍻
       </AnimatedText>
     </h1>
   </div>

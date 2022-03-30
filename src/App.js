@@ -18,7 +18,7 @@ function App() {
             height="50"
             className="d-inline-block align-middle"
             />
-            EZM Buraot
+            OWSHII&nbsp;&nbsp;&nbsp;✌&nbsp;&nbsp;&nbsp;😉
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
