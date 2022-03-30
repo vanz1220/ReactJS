@@ -46,18 +46,18 @@ a.tiktok {
 }
 
 a.tiktok:hover {
-  color: #4700ec;
+  color: #8d5dff;
 }
 
 a.twitter {
-  color: #4a89bd;
+  color: #7dc0f6;
 }
 
 a.instagram {
   color: rgb(255, 255, 255);
 }
 a.instagram:hover {
-  color: rgb(251, 161, 57);
+  color: rgb(219, 118, 2);
 }
 
 @media (prefers-reduced-motion: no-preference) {

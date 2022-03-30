@@ -18,7 +18,7 @@ function App() {
             height="50"
             className="d-inline-block align-middle"
             />
-            OWSHII&nbsp;&nbsp;✌😉 
+            OWSHII&nbsp;&nbsp;✌😉
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -27,8 +27,8 @@ function App() {
                 <Nav.Link href="/">About</Nav.Link>
                 <Nav.Link href="/">Contact</Nav.Link>
             </Nav>
-          </Navbar.Collapse>
-        </Container>
+          </Navbar.Collapse> 
+        </Container> 
       </Navbar>
       <About/>
       <SocialFollow />
