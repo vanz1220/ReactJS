@@ -8,7 +8,7 @@ import {Navbar, Container, NavDropdown, Nav} from 'react-bootstrap'
 function App() {
   return (
     <div className="App">
-      <Navbar bg="dark" expand="lg" variant="dark">
+      <Navbar bg="light" expand="lg" variant="dark">
         <Container>
           <Navbar.Brand>
             <img
