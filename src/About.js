@@ -14,9 +14,9 @@ export default function About() {
           scale: 1.1,
           ease: 'ease-in-out',
         }}
-        animationType="float"
-        interval={0.1}
-        duration={3.0}
+        animationType="diagonal"
+        interval={0.2}
+        duration={2.5}
         tag="p"
         className="animated-paragraph"
         includeWhiteSpaces
