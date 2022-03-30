@@ -30,21 +30,34 @@ a.social:hover {
   transform: translateY(-2px);
 }
 a.youtube {
-  color: #ff1500;
+  color: #fa5d4e;
+}
+
+a.youtube:hover {
+  color: #fb2511;
 }
 
 a.facebook {
-  color: #0d52e9;
+  color: #4a89bd;
 }
+
 a.tiktok {
   color: #ffffff;
 }
+
+a.tiktok:hover {
+  color: #4700ec;
+}
+
 a.twitter {
-  color: #49a1eb;
+  color: #4a89bd;
 }
 
 a.instagram {
   color: rgb(255, 255, 255);
+}
+a.instagram:hover {
+  color: rgb(251, 161, 57);
 }
 
 @media (prefers-reduced-motion: no-preference) {
