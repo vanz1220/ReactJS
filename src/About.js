@@ -4,6 +4,7 @@ import AnimatedText from 'react-animated-text-content';
 export default function About() {
   return (
   <div class="About-Height">
+    
     <h1 class="wew">
       <AnimatedText
         type="chars" // animate words or chars
