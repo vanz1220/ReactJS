@@ -1,7 +1,7 @@
 import logo from './logo.svg';
 import './App.css';
-import SocialFollow from "./SocialFollow"
-import About from "./About"
+import SocialFollow from './SocialFollow'
+import About from './About'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Navbar, Container, NavDropdown, Nav} from 'react-bootstrap'
 
@@ -38,7 +38,7 @@ function App() {
         </Container>
       </Navbar>
       <About/>
-      <footer><SocialFollow /></footer>
+      <SocialFollow />
     </div>
   );
 }
