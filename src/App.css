@@ -4,6 +4,13 @@
 .bodyko{
   background: #282c34;
 }
+.About-Height{
+  min-height: 45vmin;
+}
+.wew{
+  margin-top: 25vh;
+}
+
 .App-logo {
   height: 18vh;
   pointer-events: none;

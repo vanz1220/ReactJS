@@ -37,7 +37,7 @@ function App() {
           </Navbar.Collapse>
         </Container>
       </Navbar>
-      <About />
+      <About/>
       <footer><SocialFollow /></footer>
     </div>
   );
