@@ -57,7 +57,6 @@ function About() {
       <main>
       <AboutPage/>
       </main>
-      
     </>
   );
 }
