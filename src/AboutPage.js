@@ -1,9 +1,9 @@
 import React from 'react'
 import AnimatedText from 'react-animated-text-content';
 
-export default function About() {
+export default function AboutPage() {
   return (
-  <div class="About-Height">
+    <div class="About-Height">
     
     <h1 class="wew">
       <AnimatedText
@@ -23,7 +23,7 @@ export default function About() {
         threshold={0.1}
         rootMargin="20%"
       >
-        I ❣ REACT JS 🍻
+        This is About Page 🍻
       </AnimatedText>
     </h1>
   </div>
