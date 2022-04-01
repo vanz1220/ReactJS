@@ -85,7 +85,10 @@ h3 {
   font-size: calc(10px + 2vmin);
   color: white;
 }
-
+.p {
+  white-space: pre-wrap;
+  word-wrap: break-word;   
+}
 .App-link {
   color: #61dafb;
 }
