@@ -60,7 +60,7 @@ export default function AboutPage() {
         threshold={0.1}
         rootMargin="20%"
       >
-      It is our inability to recognize, accept,
+      and celebrate those differences. - Audre Lorde
       </AnimatedText>
     </h1>
   </div>
