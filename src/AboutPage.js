@@ -6,7 +6,7 @@ export default function AboutPage() {
     <div class="About-Height">
     <h1 class="wew">
       <AnimatedText
-        type="chars" // animate words or chars
+        type="words" // animate words or chars
         animation={{
           x: '200px',
           y: '-20px',
