@@ -22,7 +22,9 @@ export default function AboutPage() {
         threshold={0.1}
         rootMargin="20%"
       >
-        This is About Page 🍻
+        It is not our differences that divide us.
+        It is our inability to recognize, accept,
+        and celebrate those differences. - Audre Lorde
       </AnimatedText>
     </h1>
   </div>
