@@ -2,49 +2,47 @@ import React from 'react'
 
 export default function ServicesPage() {
   return (
-    <div class="skills-content">
-        <div class="column right">
-            <div class="bars">
-                <div class="info">
-                    <span>HTML</span>
-                    <span>90%</span>
+    <div class="services">
+        <div class="max-width">
+            <div class="serv-content">
+                <div class="card1">
+                    <div class="box">
+                        <i class="fa-brands fa-wordpress"></i>
+                        <div class="text">
+                            Wordpress</div>
+                        <p>WordPress Web Development, Blog Development,
+                            CMS Development, Troubleshooting, 
+                            Installation & Configuration, Backup and Restore,
+                            Support & Maintenance.
+                        </p>
+                    </div>
                 </div>
-                <div class="line html">
+                <div class="card2">
+                    <div class="box">
+                        <i class="fa-brands fa-joomla"></i>
+                        <div class="text">
+                            Joomla
+                        </div>
+                        <p>Creative Strategy,
+                            Extension Development,
+                            Joomla! Security,
+                            Content Development,
+                            Design & Development
+                            Migrations & Upgrades,
+                            Template development</p>
+                    </div>
                 </div>
-            </div>
-            <div class="bars">
-                <div class="info">
-                    <span>CSS</span>
-                    <span>80%</span>
-                </div>
-                <div class="line css">
-                </div>
-            </div>
-            <div class="bars">
-                <div class="info">
-                    <span>JavaScript</span>
-                    <span>75%</span>
-                </div>
-                <div class="line js">
-                </div>
-            </div>
-            <div class="bars">
-                <div class="info">
-                    <span>PHP</span>
-                    <span>85%</span>
-                </div>
-                <div class="line php">
-                </div>
-            </div>
-            <div class="bars">
-                <div class="info">
-                    <span>MySQL</span>
-                    <span>85%</span>
-                </div>
-                <div class="line mysql">
+                <div class="card3">
+                    <div class="box">
+                        <i class="fas fa-code"></i>
+                        <div class="text">
+                            Programming</div>
+                        <p>I am very friendly with PHP. I basically use PHP for the Competetive Coding purpose and I
+                            think in PHP is quite useful. I have also learnt React JS</p>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
+      </div>
   )
 }

@@ -2,38 +2,358 @@
   box-sizing: border-box;
 }
 
-
-.skills .skills-content .column {
-  width: calc(50% - 30px);
-}
-
-.skills .skills-content .left .text {
-  font-size: 20px;
-  font-weight: 600;
-  margin-bottom: 10px;
-}
-
-.skills .skills-content .left p {
-  text-align: justify;
-}
-
-.skills .skills-content .left a {
-  display: inline-block;
-  background: dodgerblue;
+.services, .teams {
   color: #fff;
-  font-size: 18px;
-  font-weight: 500;
-  padding: 8px 16px;
-  margin-top: 20px;
+}
+
+.services .title::before,
+.teams .title::before {
+  background: #fff;
+}
+
+.services .serv-content .card1 {
+  margin-top: 3px;
+  margin-left: 150px;
+  width: 35%;
+  background: #222;
+  text-align: center;
   border-radius: 6px;
-  border: 2px solid dodgerblue;
+  padding: 10px 15px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: x-small;
+}
+.services .serv-content .card2 {
+  margin-top: 3px;
+  margin-left: 300px;
+  width: 35%;
+  background: #222;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 15px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: x-small;
+}
+.services .serv-content .card3 {
+  margin-top: 3px;
+  margin-left: 450px;
+  width: 35%;
+  background: #222;
+  text-align: center;
+  border-radius: 6px;
+  padding: 10px 15px;
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+  font-size: x-small;
+}
+
+.services .title::after {
+  color: #8d5dff;
+}
+
+.services .serv-content .card1:hover {
+  background: #8d5dff;
+}
+
+.services .serv-content .card1 .box {
   -webkit-transition: all 0.3s ease;
   transition: all 0.3s ease;
 }
 
-.skills .skills-content .left a:hover {
-  color: dodgerblue;
-  background: none;
+.services .serv-content .card1:hover .box {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.services .serv-content .card1 i {
+  font-size: 50px;
+  color: #8d5dff;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.services .serv-content .card1:hover i {
+  color: #fff;
+}
+
+.services .serv-content .card1 .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.teams .carousel .card1 {
+  background: #222;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card1:hover {
+  background: #8d5dff;
+}
+
+.teams .carousel .card1 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card1:hover .box {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.teams .carousel .card1 .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.teams .carousel .card1 img {
+  height: 150px;
+  width: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #8d5dff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card1:hover img {
+  border-color: #fff;
+}
+
+/*di */
+.services .serv-content .card2:hover {
+  background: #8d5dff;
+}
+
+.services .serv-content .card2 .box {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.services .serv-content .carcard2d1:hover .box {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.services .serv-content .card2 i {
+  font-size: 50px;
+  color: #8d5dff;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.services .serv-content .card2:hover i {
+  color: #fff;
+}
+
+.services .serv-content .card2 .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.teams .carousel .card2 {
+  background: #222;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card2:hover {
+  background: #8d5dff;
+}
+
+.teams .carousel .card2 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card2:hover .box {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.teams .carousel .card2 .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.teams .carousel .card2 img {
+  height: 150px;
+  width: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #8d5dff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card2:hover img {
+  border-color: #fff;
+}
+
+
+.services .serv-content .card3:hover {
+  background: #8d5dff;
+}
+
+.services .serv-content .card3 .box {
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.services .serv-content .card3:hover .box {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.services .serv-content .card3 i {
+  font-size: 50px;
+  color: #8d5dff;
+  -webkit-transition: color 0.3s ease;
+  transition: color 0.3s ease;
+}
+
+.services .serv-content .card3:hover i {
+  color: #fff;
+}
+
+.services .serv-content .card3 .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.teams .carousel .card3 {
+  background: #222;
+  border-radius: 6px;
+  padding: 25px 35px;
+  text-align: center;
+  overflow: hidden;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card3:hover {
+  background: #8d5dff;
+}
+
+.teams .carousel .card3 .box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card3:hover .box {
+  -webkit-transform: scale(1.05);
+          transform: scale(1.05);
+}
+
+.teams .carousel .card3 .text {
+  font-size: 25px;
+  font-weight: 500;
+  margin: 10px 0 7px 0;
+}
+
+.teams .carousel .card3 img {
+  height: 150px;
+  width: 150px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+  border: 5px solid #8d5dff;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.teams .carousel .card3:hover img {
+  border-color: #fff;
+}
+
+.owl-dots {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.owl-dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 5px;
+  outline: none !important;
+  border-radius: 50%;
+  border: 2px solid #8d5dff !important;
+  -webkit-transition: all 0.3s ease;
+  transition: all 0.3s ease;
+}
+
+.owl-dot.active {
+  width: 35px;
+  border-radius: 14px;
+}
+
+.owl-dot.active,
+.owl-dot:hover {
+  background: #8d5dff !important;
+}
+
+.skills .skills-content .column {
+  margin-left: 100px;
+  padding: 100px;
+  width: 75%;
 }
 
 .skills .skills-content .right .bars {
@@ -71,7 +391,7 @@
   height: 100%;
   left: 0;
   top: 0;
-  background: darkblue;
+  background: #8d5dff;
 }
 
 .skills-content .right .html::before {
