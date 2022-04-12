@@ -1,3 +1,39 @@
+* {
+  box-sizing: border-box;
+}
+.row {
+  display: flex;
+  height: 67vh;
+}
+
+/* Create two equal columns that sits next to each other */
+.column1 {
+  flex: 30%;
+  padding-top: 5vh;
+}
+.column1 a:hover{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  background-color: #8d5dff;
+}
+.column1 a{
+  text-decoration: none;
+  color: rgb(0, 0, 0);
+  border: solid;
+  width: 20px;
+  border-width: 2px;
+  border-color: #8d5dff;
+  border-radius: 5px;
+  padding: 5px 10px;
+}
+.column1 img{
+  height: 100;
+  width: 100;
+}
+.column2 {
+  flex: 70%;
+}
+
 .App {
   text-align: center;
 }
@@ -8,7 +44,9 @@
   min-height: 45vmin;
 }
 .wew{
-  margin-top: 25vh;
+  margin-top: 10vh;
+  font-size: 30px;
+  padding-top: 13vh;
 }
 .contactss{
   color: #ff1500;
@@ -68,7 +106,27 @@ a.instagram:hover {
 
 @media (max-width: 414px) {
   .About-Height{
-    min-height: 54vmin;
+    min-height: 50vh;
+  }
+  
+}
+@media (max-width: 768px) {
+  .About-Height{
+    min-height: 50vh;
+  }
+  .wew{
+    margin-top: 10vh;
+    font-size: 20px;
+    padding-top: 13vh;
+  }
+  .social-container {
+    margin-top: 100px;
+  }
+  .column2 {
+    flex: 100%;
+  }
+  .column1{
+    display: none;
   }
 }
 

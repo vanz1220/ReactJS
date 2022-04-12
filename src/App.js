@@ -31,10 +31,24 @@ function App() {
           </Navbar.Collapse> 
         </Container> 
       </Navbar>
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/about" element={<About />} />
-      </Routes>
+      <div class="row">
+        <div class="column1">
+        <img
+            alt=""
+            src={logo}
+            className="d-inline-block align-middle"
+            /><br/><br/>
+          <a href="/">Home</a>&nbsp;&nbsp;
+          <a href="/about">About</a>
+        </div>
+        <div class="column2">
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="/about" element={<About />} />
+          </Routes>
+        </div>
+      </div>
+      
       <SocialFollow />
     </div>
   );
