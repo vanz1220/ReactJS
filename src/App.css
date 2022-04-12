@@ -33,6 +33,7 @@
 .me-auto a:hover{
   text-decoration: none;
   color: #8d5dff;
+  cursor: pointer;
 }
 .column1 img{
   height: 100;

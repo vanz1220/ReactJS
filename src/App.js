@@ -27,8 +27,8 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-            <LinkContainer to="/"><a>Home</a></LinkContainer>&nbsp;&nbsp;
-            <LinkContainer to="/about"><a>About</a></LinkContainer>
+            <LinkContainer to="/"><a href="/">Home</a></LinkContainer>&nbsp;&nbsp;
+            <LinkContainer to="/about"><a href="/about">About</a></LinkContainer>
             </Nav>
           </Navbar.Collapse> 
         </Container> 
@@ -40,8 +40,8 @@ function App() {
             src={logo}
             className="d-inline-block align-middle"
             /><br/><br/>
-          <LinkContainer to="/"><a>Home</a></LinkContainer>&nbsp;&nbsp;
-          <LinkContainer to="/about"><a>About</a></LinkContainer>
+          <LinkContainer to="/"><a href="/">Home</a></LinkContainer>&nbsp;&nbsp;
+          <LinkContainer to="/about"><a href="/about">About</a></LinkContainer>
         </div>
         <div class="column2">
           <Routes>
