@@ -117,7 +117,11 @@ a.instagram:hover {
   .About-Height{
     min-height: 50vh;
   }
-  
+  .wew{
+    margin-top: 10vh;
+    font-size: 12px;
+    padding-top: 13vh;
+  }
 }
 @media (max-width: 768px) {
   .About-Height{
