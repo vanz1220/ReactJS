@@ -4,8 +4,10 @@ import SocialFollow from './SocialFollow'
 import 'bootstrap/dist/css/bootstrap.min.css';
 import {Navbar, Container, Nav} from 'react-bootstrap'
 import { Routes, Route} from "react-router-dom";
+import { LinkContainer } from "react-router-bootstrap";
 import AboutPage from './AboutPage'
 import HomePage from './HomePage'
+import * as React from "react";
 
 function App() {
   return (
@@ -25,8 +27,8 @@ function App() {
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
-                <Nav.Link href="/">Home</Nav.Link>
-                <Nav.Link href="/about">About</Nav.Link>
+            <LinkContainer to="/"><a>Home</a></LinkContainer>&nbsp;&nbsp;
+            <LinkContainer to="/about"><a>About</a></LinkContainer>
             </Nav>
           </Navbar.Collapse> 
         </Container> 
@@ -38,19 +40,24 @@ function App() {
             src={logo}
             className="d-inline-block align-middle"
             /><br/><br/>
-          <a href="/">Home</a>&nbsp;&nbsp;
-          <a href="/about">About</a>
+          <LinkContainer to="/"><a>Home</a></LinkContainer>&nbsp;&nbsp;
+          <LinkContainer to="/about"><a>About</a></LinkContainer>
         </div>
         <div class="column2">
           <Routes>
-            <Route path="/" element={<Home />} />
-            <Route path="/about" element={<About />} />
+            <Route path="/" element={<React.Suspense fallback={<>...</>}>
+                <Home />
+              </React.Suspense>} />
+            <Route path="/about" element={ <React.Suspense fallback={<>...</>}>
+                <About />
+              </React.Suspense>} />
           </Routes>
         </div>
       </div>
       
       <SocialFollow />
     </div>
+    
   );
 }
 

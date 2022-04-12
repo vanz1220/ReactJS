@@ -13,18 +13,26 @@
 }
 .column1 a:hover{
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   background-color: #8d5dff;
 }
 .column1 a{
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: #8d5dff;
   border: solid;
   width: 20px;
   border-width: 2px;
   border-color: #8d5dff;
   border-radius: 5px;
   padding: 5px 10px;
+}
+.me-auto a{
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+.me-auto a:hover{
+  text-decoration: none;
+  color: #8d5dff;
 }
 .column1 img{
   height: 100;
