@@ -115,7 +115,7 @@ a.instagram:hover {
 
 @media (max-width: 414px) {
   .About-Height{
-    min-height: 45vh;
+    min-height: 25vmin;
   }
   .wew{
     margin-top: 10vh;
@@ -123,7 +123,7 @@ a.instagram:hover {
     padding-top: 13vh;
   }
   .social-container {
-    margin-top: 70px;
+    margin-top: 30px;
   }
   .column2 {
     flex: 100%;
@@ -134,11 +134,11 @@ a.instagram:hover {
 }
 @media (max-width: 768px) {
   .About-Height{
-    min-height: 50vh;
+    min-height: 25vmin;
   }
   .wew{
     margin-top: 10vh;
-    font-size: 20px;
+    font-size: 10px;
     padding-top: 13vh;
   }
   .social-container {
