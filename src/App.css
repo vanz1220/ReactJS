@@ -57,6 +57,34 @@
   font-size: 30px;
   padding-top: 13vh;
 }
+.wewe{
+  margin-top: 5vh;
+  font-size: 20px;
+  padding-top: 5vh;
+}
+.wewe input, textarea{
+  margin: 2px;
+  border-radius: 5px;
+  border-width: 1px;
+  border-color: #8d5dff;
+  color: #8d5dff;
+}
+.wewe button{
+  border-width: 2px;
+  border-color: #8d5dff;
+  background-color: #ffffff;
+  border-radius: 5px;
+  margin-left: -25px;
+  color: #8d5dff;
+  position: absolute;
+}
+.wewe button:hover{
+  background-color: #8d5dff;
+  color: #ffffff;
+  border: solid;
+  border-radius: 5px;
+  border-width: 2px;
+}
 .contactss{
   color: #ff1500;
 }
