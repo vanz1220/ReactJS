@@ -45,12 +45,8 @@ function App() {
         </div>
         <div class="column2">
           <Routes>
-            <Route path="/" element={<React.Suspense fallback={<>...</>}>
-                <Home />
-              </React.Suspense>} />
-            <Route path="/about" element={ <React.Suspense fallback={<>...</>}>
-                <About />
-              </React.Suspense>} />
+            <Route path="/" element={<Home/>} />
+            <Route path="/about" element={ <About/> } />
           </Routes>
         </div>
       </div>
