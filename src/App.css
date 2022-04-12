@@ -122,6 +122,15 @@ a.instagram:hover {
     font-size: 12px;
     padding-top: 13vh;
   }
+  .social-container {
+    margin-top: 90px;
+  }
+  .column2 {
+    flex: 100%;
+  }
+  .column1{
+    display: none;
+  }
 }
 @media (max-width: 768px) {
   .About-Height{
